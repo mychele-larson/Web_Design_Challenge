@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lat vs. Max Temp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!--Navbar adjustments-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-black-50" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="Comparisons.html" role="button" data-bs-toggle="dropdown">
+                      <a>Comparisons</a>
+                      <ul class="dropdown-menu dropdowm-menu-dark">
+                        <li><a class="nav-link" href="data.html">Data</a></li>
+                        <li><a class="dropdown-item" href="Lat_Temp.html">Max Temperature</a></li>
+                        <li><a class="dropdown-item" href="Lat_Hum.html">Humidity</a></li>
+                        <li><a class="dropdown-item" href="Lat_Cloud.html">Cloudiness</a></li>
+                        <li><a class="dropdown-item" href="Lat_Winds.html">Wind Speed</a></li>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Plots</a>
+                        <div class="dropdown-menu dropdown-menu-dark">
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+    <br>
+    <!--Add visualizations in container-->
+    <div class="container-fluid content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="text-bg-info p-3"></div>
+                    <h3> Latitude Comparison:</h3>
+                    <hr>
+                    <p><link rel="stylesheet" href="assets/css/styles.css">Click any plot below to view an in-depth analysis.</p>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <a href="Lat_Temp.html"><img width="100%" src="../assets/images/Lat_Temp.png"></a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <a href="Lat_Humidity.html"><img width="100%" src="../assets/images/Lat_Humidity.png"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="Lat_Clouds.html"><img width="100%" src="../assets/images/Lat_Clouds.png"></a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <a href="Lat_Winds.html"><img width="100%" src="../assets/images/Lat_Winds.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small footer-dark">
+            
+        </footer>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

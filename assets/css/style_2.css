@@ -1,0 +1,71 @@
+a.navbar-brand {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(235, 243, 242);
+    --bs-font: new century schoolbook;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+/* navbar styling*/
+.navbar {
+    background-color: rgb(238, 242, 241) !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 40px;
+    font-family: new century schoolbook;
+    font-size: 18px;
+}
+
+
+/* header styling*/
+h3 {
+    color: rgb(228, 237, 235);
+    font-family: new century schoolbook;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/*dropdown styling*/
+ul.dropdown {
+    list-style-position: inside;
+    text-indent: 20pt;
+}
+
+
+/* body background*/
+body {
+    background-color: whitesmoke
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(103, 98, 98);
+    color: white;
+    text-align: center;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .nav-item.dropdown.show {
+    background-color: #ddd;
+} */
+
+.dropdown-menu {
+    margin: 0;
+}
+
+/* small screen adjustments*/
+@media(max-width:991px) {
+
+    .navbar {
+        padding: inherit;
+    }
+}

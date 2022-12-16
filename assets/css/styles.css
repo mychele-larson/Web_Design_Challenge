@@ -1,6 +1,11 @@
+
+h2 {
+    
+}
+
 .navbar-brand {
     background-color: rgb(241, 236, 236);
-    font-size: 20px;
+    font-size: 0px;
     padding: 10px;
 }
 
@@ -21,19 +26,19 @@ body {
 }
 
 .sub_heading {
-    color: rgb(246, 241, 241);
+    color: rgb(19, 18, 18);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
 .box {
-    min-height: 100px;
-    padding: 10px;
-    margin-bottom: 5px;
-    margin-top: 20px;
+    min-height: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
     color: rgb(249, 244, 244);
-    background-color: rgb(247, 243, 243);
+    background-color: rgb(236, 225, 225);
 
 }
 
@@ -57,7 +62,7 @@ img {
 @media (max-width: 700px) {
     .navbar-expand-lg {
         max-height: none;
-        background-color: rgb(236, 226, 226);
+        background-color: rgb(40, 35, 35);
     }
 
     .navbar div {

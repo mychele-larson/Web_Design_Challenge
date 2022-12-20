@@ -2,18 +2,11 @@
 
 Module 11 Challenge
 Due Dec 14 by 11:59pm Points 100 Submitting a text entry box or a website url
+
 Background
 Data becomes more powerful when you share it with others! That’s because people can use your data only if they can access it. So, you’ll use HTML and CSS to create a dashboard featuring the Latitude vs. X analysis of weather.
 
 “”
-Before You Begin
-Create a new repository for this project called Web-Design-Challenge. Do not add this assignment to an existing repository.
-
-Clone the new repository to your computer.
-
-Inside your local Git repository, add the following:
-
-Three folders named assets, Resources and visualizations.
 
 NOTE
 You’ll later add your CSS and image files to the assets folder. You’ll add the CSV file containing the data for your website to the Resources folder. You’ll add the HTML pages that display your visualizations to the visualizations folder.
@@ -35,10 +28,6 @@ Deploy your index.html file to GitHub Pages.
 NOTE
 By deploying this empty HTML file to GitHub Pages now, you’ll find that it automatically refreshes as you build your pages. You can then review the updates with each push that you make to GitHub.
 
-Files
-Download the following files to help you get started:
-
-Module 11 Challenge filesLinks to an external site.
 
 Instructions
 Create a website by using either the visualizations that you created for your Python-APIs Challenge or the weather data and images that are provided for this Challenge. To do so, use the considerations and website requirements that the following subsections describe. Also, ensure that your repository has regular commits and a descriptive README.md file.
@@ -63,31 +52,31 @@ The overall requirements for your website are as follows:
 NOTE
 For reference, review the following Screenshots section.
 
-Your website must consist of seven pages.
+  Your website must consist of seven pages.
 
-At the top of every page, your website must have a navigation bar.
+  At the top of every page, your website must have a navigation bar.
 
-Your website must be deployed to GitHub Pages.
+  Your website must be deployed to GitHub Pages.
 
-Next, we’ll describe these requirements in detail.
+  Next, we’ll describe these requirements in detail.
 
-Your website must consist of seven pages as follows:
+  Your website must consist of seven pages as follows:
 
-A landing page that contains the following elements:
+  A landing page that contains the following elements:
 
-An explanation of the project.
+  An explanation of the project.
 
-A link to each visualization page. For these, a sidebar should contain a preview image of each visualization. Clicking an image should take the user to that visualization.
+  A link to each visualization page. For these, a sidebar should contain a preview image of each visualization. Clicking an image should take the user to that  visualization.
 
-Four visualization pages, stored in the visualizations folder, each with the following elements:
+  Four visualization pages, stored in the visualizations folder, each with the following elements:
 
-A descriptive title and a heading tag.
+  A descriptive title and a heading tag.
 
-The visualization for the selected comparison (latitude vs. max temperature, latitude vs. humidity, latitude vs. cloudiness, or latitude vs. wind speed). The images that these pages display should be stored in the assets/images folder.
+  The visualization for the selected comparison (latitude vs. max temperature, latitude vs. humidity, latitude vs. cloudiness, or latitude vs. wind speed). The images  that these pages display should be stored in the assets/images folder.
 
-A paragraph describing the visualization and its significance.
+  A paragraph describing the visualization and its significance.
 
-A comparisons page that does the following:
+  A comparisons page that does the following:
 
 Contains all the visualizations on the same page so that people can easily compare them.
 
@@ -100,7 +89,7 @@ The table must be a Bootstrap table component.
 HINT
 The data must come from either exporting or converting the CSV file to HTML. To do so, try using a tool that you already know: Pandas. Pandas has a to_html method that generates an HTML table from a Pandas DataFrame. To learn more, see pandas.DataFrame.to_html Links to an external site.in the official Pandas documentation.
 
-Note: Whether you use your own CSV file or the one provided, you should also upload the CSV file you used with your submission. This way your data page can be compared with the CSV file by your grader.
+  Note: Whether you use your own CSV file or the one provided, you should also upload the CSV file you used with your submission. This way your data page can be       compared with the CSV file by your grader.
 
 At the top of every page, your website must have a navigation bar that does the following:
 
@@ -214,24 +203,3 @@ Include appropriate commit messages in your files (2 points)
 
 Deploy the website to GitHub Pages (4 points)
 
-Grading
-This assignment will be evaluated against the requirements and assigned a grade according to the following table:
-
-Grade	Points
-A (+/-)	90+
-B (+/-)	80–89
-C (+/-)	70–79
-D (+/-)	60–69
-F (+/-)	< 60
-Submission
-To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository and the URL of your deployed website for grading.
-
-NOTE
-You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next module.
-
-Comments are disabled for graded submissions in Bootcamp Spot. If you have questions about your feedback, please notify your instructional staff or your Student Success Manager. If you would like to resubmit your work for an additional review, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
-
-References
-OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from https://openweathermap.org/ Links to an external site..
-
-© 2022 edX Boot Camps LLC

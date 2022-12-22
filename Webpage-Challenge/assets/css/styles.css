@@ -1,0 +1,13 @@
+body {
+    padding: 5px;
+    margin-inline: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 20px;
+    line-height: 50%; 
+    color:darkslategrey;
+    background-color: rgb(12, 12, 11);
+}
+
+header {
+    background-color: rgb(206, 172, 172);
+}

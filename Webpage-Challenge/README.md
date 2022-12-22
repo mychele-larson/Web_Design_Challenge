@@ -2,10 +2,11 @@
 
 Module 11 Challenge
 Due Dec 14 by 11:59pm Points 100 Submitting a text entry box or a website url
+
 Background
 Data becomes more powerful when you share it with others! That’s because people can use your data only if they can access it. So, you’ll use HTML and CSS to create a dashboard featuring the Latitude vs. X analysis of weather.
 
-“”
+
 Before You Begin
 Create a new repository for this project called Web-Design-Challenge. Do not add this assignment to an existing repository.
 
@@ -214,24 +215,3 @@ Include appropriate commit messages in your files (2 points)
 
 Deploy the website to GitHub Pages (4 points)
 
-Grading
-This assignment will be evaluated against the requirements and assigned a grade according to the following table:
-
-Grade	Points
-A (+/-)	90+
-B (+/-)	80–89
-C (+/-)	70–79
-D (+/-)	60–69
-F (+/-)	< 60
-Submission
-To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository and the URL of your deployed website for grading.
-
-NOTE
-You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next module.
-
-Comments are disabled for graded submissions in Bootcamp Spot. If you have questions about your feedback, please notify your instructional staff or your Student Success Manager. If you would like to resubmit your work for an additional review, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
-
-References
-OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from https://openweathermap.org/ Links to an external site..
-
-© 2022 edX Boot Camps LLC

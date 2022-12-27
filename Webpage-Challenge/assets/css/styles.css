@@ -4,8 +4,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     font-size: 20px;
     line-height: 50%; 
-    color:red;
-    background-color: rgb(12, 12, 11);
+    color:rgb(17, 16, 16);
+    background-color: rgb(230, 230, 218);
 }
 
 header {

@@ -11,16 +11,16 @@ a.navbar-brand{
 .page-footer{
     background-color: black;
     margin-top: 30px;
-    position: absolute;
-    bottom:0px;
+    position: center ;
+    bottom: 10px;
     width: 100%;
 }
 
 /* header style */
 h3{
-    color:steelblue;
+    color:rgb(74, 112, 143);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* image style */
@@ -32,10 +32,10 @@ p{
 
 /* body background */
 body {
-    background-color: aliceblue;
+    background-color: rgb(213, 227, 240);
 }
 .col-md-12{
-    background-color: bisque;
+    background-color: whitesmoke;
     padding-top: 35px;
     padding-bottom: 50px;
 }

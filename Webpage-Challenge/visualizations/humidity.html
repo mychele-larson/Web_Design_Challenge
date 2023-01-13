@@ -1,37 +1,99 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<!doctype html>
+<html lang="en">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
 
-    <!-- Add a title here -->
 
-    <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-  </head>
 
-  <body>
-    <!-- Start of navbar -->
-    <!-- End of navbar -->
+  <link rel="stylesheet" href="style.css">
+  <title>Web Design Challenge</title>
+</head>
 
-    <!-- Start of container -->
+<body>
 
-          <!-- Start of Visualizations imageNav Area -->
-          <!-- End of the Visualizations imageNav Area -->
 
-    <!-- End of container -->
+  <nav class="media-query-navbar-color navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class=" navbar-brand-color " href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="maxtemp.html">Max temperature</a></li>
+              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="data.html">Data</a>
+          </li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <br>
 
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  </body>
+  <div class="container">
+    <section class="row">
+      <div class="col-md-8 col-sm-12">
+        <h2 class="visualization-font-color text-left"> Humidity </h2>
+        <hr class="my-4">
+        <img src="assets/Humidity.png" class="img-fluid" alt="Latitude vs Humidity">
+        <p> The wide scattering of values in this plot suggests there is little correlation between latitude and
+          humidity.</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2 class="visualization-font-color text-right">Visualizations </h2>
+        <hr class="my-4">
+        <div">
+          <div>
+            <a href="maxtemp.html"><img src="assets/Max Temp.png" width="200px" height="200px"
+                alt="Latitude vs Max Temp"></a>
+            <a href="cloudiness.html"><img src="assets/Cloudiness.png" width="200px" height="200px"
+                alt="Latitude vs Cloudiness"></a>
+            <a href="windspeed.html"><img src="assets/Wind Speed.png" width="200px" height="200px"
+                alt="Latitude vs Wind Speed"></a>
+            <a href="humidity.html"><img class="border border-info border-2" src="assets/Humidity.png" width="200px"
+                height="200px" alt="Latitude vs Humidity"></a>
+          </div>
+      </div>
+
+  </div>
+
+
+  </section>
+
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
 
 </html>

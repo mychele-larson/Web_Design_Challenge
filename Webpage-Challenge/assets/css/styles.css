@@ -1,43 +1,120 @@
-/* navbar style */
-a.navbar-brand{
-    margin-left: 15px;
-    padding: 15px;
-    background-color: lavender;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: x-large;
+/* navbar styling*/
+a.navbar {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(61, 197, 84);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
-/*footer style*/
-.page-footer{
-    background-color: black;
-    margin-top: 30px;
-    position: center ;
-    bottom: 10px;
+/*footer styling*/
+.page-footer {
+    background-color: rgb(209, 24, 24);
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
 
-/* header style */
-h3{
-    color:rgb(74, 112, 143);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.footer-copyright {
+    color: white;
+    border-top: 5px solid rgb(81, 175, 160)
+}
+
+/* header styling*/
+h3 {
+    color: rgb(185, 236, 229);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
 }
 
-/* image style */
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
-    padding: 15px;
+/* image styling*/
+.img-thumbnail {
+    padding: 10px;
+    border: none;
 }
 
-/* body background */
+/* fontstyling for text*/
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+}
+
+/* body background*/
 body {
-    background-color: rgb(213, 227, 240);
+    background-color: rgb(10, 10, 10);
 }
-.col-md-12{
-    background-color: whitesmoke;
-    padding-top: 35px;
-    padding-bottom: 50px;
+
+.col-md-12 {
+    background-color: rgb(221, 64, 129);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* image border styling*/
+.pic {
+    border: 3px solid rgb(81, 175, 160);
+}
+
+/* navbar styling*/
+.navbar {
+    color:blueviolet;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+}
+
+.nav-item.dropdown.show {
+    background-color: rgb(112, 55, 55);
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+/* content styling*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
 }
 
 
+/* table text adjustments*/
+tr>th:nth-child(1),
+tr>th:nth-child(3),
+tr>th:nth-child(6),
+tr>th:nth-child(7),
+tr>th:nth-child(8),
+tr>th:nth-child(9),
+tr>th:nth-child(10),
+tr>td:nth-child(1),
+tr>td:nth-child(3),
+tr>td:nth-child(6),
+tr>td:nth-child(7),
+tr>td:nth-child(8),
+tr>td:nth-child(9),
+tr>td:nth-child(10) {
+    text-align: right;
+}
+
+
+/* small screen adjustments*/
+@media(max-width:767px) {
+    .navbar.bg-light {
+        background-color: rgb(81, 175, 160) !important;
+    }
+
+    .navbar-collapse {
+        background-color: #f8f9fa;
+    }
+
+    .navbar {
+        padding: inherit;
+    }
+}

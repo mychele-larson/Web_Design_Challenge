@@ -1,37 +1,32 @@
 /* navbar styling*/
-a.navbar {
+.navbar {
     margin-left: 10px;
     padding: 10px;
-    background-color: rgb(61, 197, 84);
+    background-color: rgb(240, 233, 238);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
 /*footer styling*/
-.page-footer {
-    background-color: rgb(209, 24, 24);
+.site-footer {
+    background-color: rgb(215, 206, 206);
     margin-top: 50px;
-    position: fixed;
-    bottom: 0;
+    position: center;
+    bottom: 10px;
     width: 100%;
-}
-
-.footer-copyright {
-    color: white;
-    border-top: 5px solid rgb(81, 175, 160)
 }
 
 /* header styling*/
 h3 {
-    color: rgb(185, 236, 229);
+    color: rgb(24, 23, 23);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
 }
 
 /* image styling*/
 .img-thumbnail {
-    padding: 10px;
-    border: none;
+    padding: 15px;
+    border: rgb(16, 16, 16);
 }
 
 /* fontstyling for text*/
@@ -43,30 +38,22 @@ p {
 
 /* body background*/
 body {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(239, 233, 233);
 }
 
-.col-md-12 {
-    background-color: rgb(221, 64, 129);
+.col-lg-10 {
+    background-color: rgb(11, 11, 11);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 /* image border styling*/
 .pic {
-    border: 3px solid rgb(81, 175, 160);
-}
-
-/* navbar styling*/
-.navbar {
-    color:blueviolet;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 30px;
+    border: 5px solid rgb(20, 20, 20);
 }
 
 .nav-item.dropdown.show {
-    background-color: rgb(112, 55, 55);
+    background-color: rgb(155, 105, 240);
 }
 
 .dropdown-menu {
@@ -107,7 +94,7 @@ tr>td:nth-child(10) {
 /* small screen adjustments*/
 @media(max-width:767px) {
     .navbar.bg-light {
-        background-color: rgb(81, 175, 160) !important;
+        background-color: rgb(231, 237, 236) !important;
     }
 
     .navbar-collapse {

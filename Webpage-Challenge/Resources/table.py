@@ -2,10 +2,8 @@
 # CSV to HTML Table
 import pandas as pd
 # to read csv file named "samplee"
-a = pd.read_csv("Resources/cities.csv")
+table = pd.read_csv("Webpage-Challenge/Resources/cities.csv")
 # to save as html file
 # named as "Table"
-a.to_html("Resources/Table.html")
-# assign it to a
-# variable (string)
-html_file = a.to_html()
+table.to_html("Webpage-Challenge/data.html", index=False)
+

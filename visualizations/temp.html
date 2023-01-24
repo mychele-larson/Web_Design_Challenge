@@ -19,7 +19,7 @@
 <body>
   <nav class="media-query-navbar-color navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class=" navbar-brand-color" href="index.html">Home</a>
+      <a class=" navbar-brand-color " href="index.html">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,40 +27,53 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/Webpage-Challenge/comparison.html">Comparison</a>
+            <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/Webpage-Challenge/data.html">Data</a>
+            <a class="nav-link active" href="data.html">Data</a>
           </li>
+        </ul>
+        </li>
+        </ul>
+        </li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <br>
+
   <div class="container">
     <section class="row">
       <div class="col-md-8 col-sm-12">
-        <h2 class="visualization-font-color text-left"> Latitude Compared to Wind Speed </h2>
+        <h2 class="visualization-font-color text-left">Latitude Compared to Temperature </h2>
         <hr class="my-4">
-        <img src="/Webpage-Challenge/images/windspeed.png" class="img-fluid" alt="Latitude Compared To Wind Speed">
-        <p> The wide scattering of values in this plot suggests there is little correlation between latitude and
-          windspeed.</p>
+        <img src="images/temp.png" class="img-fluid" alt="Latitude & Temperature">
+        <p> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg Latttitude). More
+          interestingly, however, is that the Southern Hemisphere appears to be warmer this time of year than the
+          Northern Hemisphere. This may be due to the tilt of the Earth at the time the data was gathered.</p>
       </div>
       <div class="col-md-4 col-sm-12">
         <h2 class="visualization-font-color text-right">Visualizations </h2>
-        <hr class="my-4"></hr>
+        <hr class="my-4">
         <div">
           <div>
-          <a href="/Webpage-Challenge/visualizations/temp.html"><img class="border border-info border-2" src="/Webpage-Challenge/images/temp.png" width="200px" height="200px" alt="Latitude & Temp"></a>
-          <a href="/Webpage-Challenge/visualizations/cloudiness.html"><img src="/Webpage-Challenge/images/clouds.png" width="200px"
-            height="200px" alt="Latitude & Cloudiness"></a>
-          <a href="/Webpage-Challenge/visualizations/humidity.html"><img src="/Webpage-Challenge/images/humidity.png" width="200px"
-            height="200px" alt="Latitude & Humidity"></a>
-          <a href="/Webpage-Challenge/visualizations/wind.html"><img src="/Webpage-Challenge/images/windspeed.png"
-             width="200px" height="200px" alt="Latitude & Humidity"></a>
-        </div>
+            <a href="visualizations/temp.html"><img src="images/temp.png" width="200px" height="200px"
+                alt="Max Temperature Graph"></a>
+            <a href="/visualizations/cloudiness.html"><img src="images/clouds.png" width="200px" height="200px"
+                alt="Latitude & Cloudiness"></a>
+            <a href="visualizations/wind.html"><img src="images/windspeed.png" width="200px" height="200px"
+                alt="Latitude & Wind Speed"></a>
+            <a href="visualizations/humidity.html"><img src="images/humidity.png" width="200px" height="200px"
+                alt="Latitude & Humidity"></a>
+          </div>
       </div>
-    </section>
+
+  </div>
+
+
+  </section>
+
   </div>
 
 

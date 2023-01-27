@@ -8,7 +8,7 @@ body {
 
 /* Navbar */
 .navigation {
-    color: white;
+    color: lightslategrey;
     font-family: sans-serif;
     background-color: #590d8b;
     font-weight: bold;
@@ -16,7 +16,7 @@ body {
 }
 
 .navigation .navbar-brand {
-    color: white;
+    color: lightslategrey;
     font-family: Verdana;
     font-size: 30px;
     background-color: #590d8b;
@@ -28,7 +28,7 @@ body {
 
 .navbar {
     max-height: 70px;
-    background-color: white;
+    background-color: lightslategray;
     font-size: 16px;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .navigation .navbar-brand:hover {
-    color: rgb(200, 248, 246);
+    color: #590d8b;
 }
 
 .container {
@@ -74,7 +74,7 @@ img {
     border-style: solid;
 }
 
-/* Surrond imgage with text */
+/* Surrond image with text */
 .visualization {
     width: 50%;
     height: 50%;
@@ -124,15 +124,21 @@ a {
 footer {
     background-color: lightslategrey;
     border-top-style: solid;
-    border-top-width: 3px;
+    border-top-width: 10px;
     border-top-color: #590d8b;
     color: white;
     min-height: 55px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 5px;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+}
+
+a {
+    color: white;
 }
 
 @media(max-width: 992px) {

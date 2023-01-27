@@ -1,107 +1,143 @@
-/* navbar styling*/
-.navbar {
-    margin-left: 10px;
-    padding: 10px;
-    background-color: rgb(240, 125, 207);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-
-/*footer styling*/
-.site-footer {
-    background-color: rgb(215, 206, 206);
-    margin-top: 50px;
-    position: center;
-    bottom: 10px;
-    width: 100%;
-}
-
-/* header styling*/
-h2 {
-    color: rgb(237, 243, 151);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
-}
-
-/* image styling*/
-.img-thumbnail {
-    padding: 15px;
-    border: rgb(16, 16, 16);
-}
-
-/* fontstyling for text*/
-p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    padding: 10px;
-}
-
-/* body background*/
+/* Body */
 body {
-    background-color: rgb(239, 233, 233);
+    height: 100%;
+    width: 100%;
+    background-color: #EDEDED;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.col-lg-10 {
-    background-color: rgb(11, 11, 11);
-    padding-top: 10px;
-    padding-bottom: 10px;
+/* Navbar */
+.navigation {
+    color: white;
+    font-family: sans-serif;
+    background-color: #590d8b;
+    font-weight: bold;
+    padding: inherit;
 }
 
-/* image border styling*/
-.pic {
-    border: 5px solid rgb(20, 20, 20);
+.navigation .navbar-brand {
+    color: white;
+    font-family: Verdana;
+    font-size: 30px;
+    background-color: #590d8b;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.nav-item.dropdown.show {
-    background-color: rgb(155, 105, 240);
+.navbar {
+    max-height: 70px;
+    background-color: white;
+    font-size: 16px;
 }
 
-.dropdown-menu {
-    margin: 0;
+.dropdown-item {
+    color: #6D8092;
 }
 
-/* content styling*/
-.content {
-    padding-top: 50px;
-    padding-bottom: 80px;
-    overflow: hidden;
+/* Show different color when hovering over items on the navbar */
+.dropdown .dropdown-menu .dropdown-item:active,
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #E7E7E7;
 }
 
-.content.bg-white {
-    margin-top: 15px;
+.navigation .nav-link:hover {
+    background-color: #E7E7E7;
 }
 
-
-/* table text adjustments*/
-tr>th:nth-child(1),
-tr>th:nth-child(3),
-tr>th:nth-child(6),
-tr>th:nth-child(7),
-tr>th:nth-child(8),
-tr>th:nth-child(9),
-tr>th:nth-child(10),
-tr>td:nth-child(1),
-tr>td:nth-child(3),
-tr>td:nth-child(6),
-tr>td:nth-child(7),
-tr>td:nth-child(8),
-tr>td:nth-child(9),
-tr>td:nth-child(10) {
-    text-align: right;
+.navigation .navbar-brand:hover {
+    color: rgb(200, 248, 246);
 }
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-/* small screen adjustments*/
-@media(max-width:767px) {
-    .navbar.bg-light {
-        background-color: rgb(231, 237, 236) !important;
-    }
+/* Images */
+img {
+    width: 100%;
+    height: 100%;
+}
 
-    .navbar-collapse {
-        background-color: #f8f9fa;
+.image-fluid:hover {
+    border-color: #590d8b;
+    border-style: solid;
+}
+
+.image-active {
+    border-color: #590d8b;
+    border-style: solid;
+}
+
+/* Surrond imgage with text */
+.visualization {
+    width: 50%;
+    height: 50%;
+}
+
+/* Title */
+.title {
+    color: #590d8b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+
+/* Paragraph */
+p {
+    color: #6D8092;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Box */
+.box {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 10px 20px 15px;
+    color: black;
+    background-color: white;
+}
+
+/* Table */
+.table-responsive {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+footer {
+    background-color: lightslategrey;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #590d8b;
+    color: white;
+    min-height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+}
+
+@media(max-width: 992px) {
+    .navbar-brand {
+        color: white;
+        font-size: 30px;
+        background-color: #590d8b;
+        padding: 10px;
     }
 
     .navbar {
+        max-height: none;
         padding: inherit;
+    }
+
+    .container {
+        background-color: white;
     }
 }

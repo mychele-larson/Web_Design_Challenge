@@ -95,6 +95,17 @@ p {
     font-size: 18px;
 }
 
+h2 {
+    color:rgb(61, 4, 114);
+    font-size: medium;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a {
+    color:white;
+}
+
 /* Box */
 .box {
     margin-top: 50px;

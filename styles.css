@@ -10,9 +10,10 @@ body {
 .navigation {
     color: lightslategrey;
     font-family: sans-serif;
-    background-color: #590d8b;
+    /* background-color: #590d8b; */
     font-weight: bold;
     padding: inherit;
+    border-bottom: #590d8b;
 }
 
 .navigation .navbar-brand {
@@ -25,11 +26,16 @@ body {
     padding: 10px;
     box-sizing: border-box;
 }
+.navbar .navbar-expand-lg {
+    border-color: #590d8b;
+    border-block-width: 10px;
+}
 
 .navbar {
     max-height: 70px;
     background-color: lightslategray;
     font-size: 16px;
+    border-bottom: #590d8b;
 }
 
 .dropdown-item {
